@@ -28,10 +28,10 @@ void loop(){
   AcceptPayPalPaymentChoreo.setAppKeyName(TEMBOO_APP_KEY_NAME);
   AcceptPayPalPaymentChoreo.setAppKey(TEMBOO_APP_KEY);
     
-  AcceptPayPalPaymentChoreo.addInput("ClientID", "AXrysRDeQOaGRw2n6VfaQqfpPWFm5UxSgdS7f-b4QTA-nhFVkWyrg0WPNmMp");
-  AcceptPayPalPaymentChoreo.addInput("ClientSecret", "EHMHkRAFFNeLZmsYKvpNgRxIW8Z6gxjTn9zBocpTnFJoulKaNFprCcc9q7eh");
-  AcceptPayPalPaymentChoreo.addInput("CancelURL", "http://www.jcleblanc.com/cancel");
-  AcceptPayPalPaymentChoreo.addInput("ReturnURL", "http://www.jcleblanc.com/return");
+  AcceptPayPalPaymentChoreo.addInput("ClientID", "YOUR CLIENT ID");
+  AcceptPayPalPaymentChoreo.addInput("ClientSecret", "YOUR CLIENT SECRET");
+  AcceptPayPalPaymentChoreo.addInput("CancelURL", "CANCEL URL");
+  AcceptPayPalPaymentChoreo.addInput("ReturnURL", "RETURN URL");
   AcceptPayPalPaymentChoreo.addInput("Currency", "USD");
   AcceptPayPalPaymentChoreo.addInput("Total", "5");
     
